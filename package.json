@@ -1,0 +1,14 @@
+{
+    "name": "lacrei-api",
+    "version": "1.0.0",
+    "description": "API básica para o desafio DevSecOps",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "echo \"Nenhum teste configurado ainda\" && exit 1"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
