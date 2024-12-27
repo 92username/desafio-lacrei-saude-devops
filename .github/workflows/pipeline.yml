@@ -36,7 +36,10 @@ jobs:
       - name: Start Application
         run: |
           npm start &
-          sleep 5 # Wait for the application to start to run OWASP ZAP
+          until curl -s http://localhost:3000; do
+            echo "Waiting for the application to start...";
+            sleep 10;
+          done
 
       - name: Run OWASP ZAP (Updated Image)
         run: |
