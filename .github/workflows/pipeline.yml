@@ -33,8 +33,15 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      - name: Start Application
+        run: |
+          npm start &
+          sleep 5 # Wait for the application to start to run OWASP ZAP
+
       - name: Run OWASP ZAP (Updated Image)
         run: |
+          docker pull zaproxy/zap-stable
+          docker run --rm -v $(pwd):/zap/wrk:rw zaproxy/zap-stable zap-full-scan.py -t http://localhost:3000 -r zap_report.html
           docker pull zaproxy/zap-stable
           docker run --rm -v $(pwd):/zap/wrk:rw zaproxy/zap-stable zap-full-scan.py -t http://localhost:3000 -r zap_report.html
 
