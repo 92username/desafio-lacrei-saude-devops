@@ -44,7 +44,9 @@ jobs:
       - name: Run OWASP ZAP (Updated Image)
         run: |
             docker pull zaproxy/zap-stable
-            docker run --rm -v $(pwd):/zap/wrk:rw --network zap-network zaproxy/zap-stable zap-full-scan.py -t http://node-app-container:3000 -r /zap/wrk/zap_report.html      
+            docker run --rm -v $(pwd):/zap/wrk:rw --network zap-network zaproxy/zap-stable zap-full-scan.py -t http://node-app-container:3000 -r /zap/wrk/zap_report.html
+            docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py -t https://site.com -r /zap/wrk/testreport.html
+
   deploy:
     runs-on: ubuntu-24.04
     needs: security
