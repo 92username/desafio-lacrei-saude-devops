@@ -19,12 +19,6 @@ Este repositório contém o desafio de DevSecOps para a Lacrei Saúde. O objetiv
 - **Docker**: Utilizado para a criação de containers que garantem a consistência do ambiente de desenvolvimento e produção.
 - **Dockerfile**: Contém as instruções para a criação das imagens Docker utilizadas no projeto.
 
-## Estrutura do Projeto
-
-- `src/`: Contém os scripts e arquivos fonte do projeto.
-- `Dockerfile`: Arquivo de configuração do Docker para criar a imagem do projeto.
-- `ci/`: Contém os arquivos de configuração para o pipeline de CI/CD.
-
 ## Como Usar
 
 ### Pré-requisitos
