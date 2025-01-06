@@ -1,4 +1,4 @@
-[![CI/CD Pipeline](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline.yml/badge.svg)](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline.yml)
+[![CI/CD Build Push and Deploy](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline2.yml/badge.svg)](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline2.yml)
 
 # Desafio Lacrei Saúde - DevSecOps
 
