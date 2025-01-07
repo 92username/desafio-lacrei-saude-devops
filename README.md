@@ -1,4 +1,4 @@
-[![CI/CD Pipeline](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline.yml/badge.svg)](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline.yml)
+[![CI/CD Build Push and Deploy](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline2.yml/badge.svg)](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline2.yml)
 
 # Desafio Lacrei Saúde - DevSecOps
 
@@ -18,12 +18,6 @@ Este repositório contém o desafio de DevSecOps para a Lacrei Saúde. O objetiv
 - **JavaScript**: Utilizado para o desenvolvimento de scripts e automações necessárias no pipeline.
 - **Docker**: Utilizado para a criação de containers que garantem a consistência do ambiente de desenvolvimento e produção.
 - **Dockerfile**: Contém as instruções para a criação das imagens Docker utilizadas no projeto.
-
-## Estrutura do Projeto
-
-- `src/`: Contém os scripts e arquivos fonte do projeto.
-- `Dockerfile`: Arquivo de configuração do Docker para criar a imagem do projeto.
-- `ci/`: Contém os arquivos de configuração para o pipeline de CI/CD.
 
 ## Como Usar
 
