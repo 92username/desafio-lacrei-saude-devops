@@ -1,13 +1,10 @@
 name: CI/CD Build Push and Deploy
 
 on:
-  workflow_dispatch: # Enables manual trigger
   push:
     branches:
       - main
-      - develop
-      - "release/*" 
-      - "bugfix/*"
+      
     paths-ignore:
       - '.github/workflows/**'
 
