@@ -39,7 +39,7 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
       - Este foi o ponto que bloqueou a entrega. Durante o processo de deploy, ocorreu uma mislabeling (atribuição incorreta de nome) do contêiner, o que impediu a execução correta do push para o Docker Hub. Esse erro de nomeação foi identificado e corrigido, permitindo que a tarefa fosse concluída posteriormente. 
 
 ### 3. **Requisitos de Segurança**
-- [ ] **Configurar as permissões do pipeline para que apenas branches protegidas possam acionar o deploy**
+- [x] **Configurar as permissões do pipeline para que apenas branches protegidas possam acionar o deploy**
   - Comentários:
   - A configuração de permissões foi feita para que o pipeline só seja executado na `main` branch.
 - [x] **Configurar secrets no GitHub para armazenar credenciais de acesso ao Docker Hub**
