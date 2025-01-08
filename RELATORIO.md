@@ -46,16 +46,16 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
 
 ### 4. **Documentação**
 - [x] **Adicionar um arquivo `README.md` explicando:**
-  - [ ] **Como configurar o pipeline**
+  - [x] **Como configurar o pipeline**
   - [x] **Como executar a aplicação localmente**
   - [x] **Quaisquer decisões técnicas tomadas durante o desafio**
   - Comentários:
-  - 
+  - Durante o desenvolvimento do desafio, uma decisão importante foi o uso de issues no GitHub para documentar e acompanhar os obstáculos encontrados ao longo do processo. Sempre que surgiam dificuldades ou interrupções no fluxo de trabalho, eu registrava esses desafios como issues, o que me ajudou tanto a acompanhar a evolução do projeto quanto a ter um entendimento mais claro do que estava acontecendo. Essa abordagem me permitiu manter um controle eficiente das pendências e ter uma visão mais detalhada do progresso, além de facilitar a retomada do trabalho após interrupções, garantindo que nenhum ponto fosse esquecido ou negligenciado.
 
 ### 5. **Entrega**
-- [ ] **Disponibilizar o link do repositório no GitHub para avaliação**
+- [x] **Disponibilizar o link do repositório no GitHub para avaliação**
   - Comentários:
-  - 
+  - https://github.com/92username/desafio-lacrei-saude-devops
 
 ---
 
@@ -76,14 +76,6 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
 - [ ] **Criatividade e Inovação**: Soluções inteligentes ou melhorias sugeridas no processo.
   - Comentários:
   - 
-
----
-
-## **Dicas**
-
-- Utilize a documentação oficial das ferramentas sempre que necessário.
-- Demonstre conhecimento prático de segurança aplicável a CI/CD.
-- Envolva práticas que reflitam preocupação com escalabilidade e manutenção.
 
 ---
 
