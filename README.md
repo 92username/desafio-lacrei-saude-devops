@@ -37,26 +37,38 @@ Este repositório contém o desafio de DevSecOps para a Lacrei Saúde. O objetiv
    cd desafio-lacrei-saude-devops
    ```
 
+### Agora você deve definir se a applicação será executada localmente via npm 
+### ou via Docker
+
+### Via npm
+
 3. Instale as dependências:
    ```sh
    npm install
    ```
-   Execute diretamente:
+   Para executar a aplicação diretamente:
    ```sh
    npm start
    ```
+4. Acesse a aplicação em seu navegador:
+   ```
+   http://localhost:3000
+   ```
 
-4. Construa a imagem Docker:
+**OU**
+
+### Via Docker
+5. Construa a imagem Docker:
    ```sh
    docker build -t lacrei-saude-devops .
    ```
 
-5. Execute o container Docker:
+6. Execute o container Docker:
    ```sh
    docker run -d -p 3000:3000 lacrei-saude-devops
    ```
 
-6. Acesse a aplicação em seu navegador:
+7. Acesse a aplicação em seu navegador:
    ```
    http://localhost:3000
    ```
