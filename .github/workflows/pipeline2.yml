@@ -6,8 +6,8 @@ on:
     branches:
       - main
       
-    #paths-ignore:
-    #  - '.github/workflows/**'
+    #paths-ignore:              # Uncomment this line to track changes in workflow files
+    #  - '.github/workflows/**' # Uncomment this line to track changes in workflow files
 
 jobs:
   build:
