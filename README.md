@@ -60,9 +60,23 @@ O pipeline de CI/CD foi configurado para automatizar os seguintes passos:
 2. **Test**: Executa testes automatizados para validar a funcionalidade e segurança do código.
 3. **Deploy**: Realiza o deploy da aplicação em um ambiente de produção.
 
-## Contribuindo
+## Como Configurar o Pipeline
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorar este projeto.
+Para configurar o pipeline de CI/CD, siga os passos abaixo:
+
+1. **Criação do arquivo do pipeline**:
+   - O arquivo `pipeline2.yml` deve ser colocado no diretório `.github/workflows/` do seu repositório.
+
+2. **Configuração de Secrets no GitHub**:
+   - Se o pipeline requer credenciais (como para o Docker Hub), adicione os **secrets** nas configurações do repositório:
+     - Acesse **Settings** > **Secrets**.
+     - Adicione as variáveis necessárias (ex: `DOCKER_USERNAME`, `DOCKER_PASSWORD`).
+
+3. **Branches Protegidas**:
+   - No repositório, acesse **Settings** > **Branches** e configure a **`main`** como uma branch protegida para garantir que o deploy seja acionado apenas de branches aprovadas.
+
+4. **Acionamento Manual**:
+   - O pipeline pode ser acionado manualmente usando a interface do GitHub Actions, graças à configuração de `workflow_dispatch`.
 
 
 

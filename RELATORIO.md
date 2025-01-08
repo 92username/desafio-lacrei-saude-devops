@@ -25,28 +25,30 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
 
     #### 2.2 **Análise de Segurança**
     - [x] **Integrar a ferramenta OWASP ZAP para escanear vulnerabilidades na aplicação**
-    - [ ] **Gerar um relatório de vulnerabilidades como artefato do pipeline**
+    - [x] **Gerar um relatório de vulnerabilidades como artefato do pipeline**
       - Comentários:
-      - A integração da ferramenta OWASP ZAP para escanear vulnerabilidades foi a parte mais desafiadora deste desafio, pois era uma área nova para mim. A falta de prática e o conhecimento limitado sobre a ferramenta dificultaram o progresso e a finalização dessa tarefa. Embora tenha enfrentado desafios, foi uma oportunidade importante de aprendizado e de evolução na aplicação de práticas de segurança em CI/CD.
+      - A integração da ferramenta OWASP ZAP para escanear vulnerabilidades foi a parte mais difícil deste desafio, pois era uma área nova para mim. A falta de prática e o conhecimento limitado sobre a ferramenta dificultaram o progresso e a finalização dessa tarefa. Embora tenha enfrentado desafios, foi uma oportunidade importante de aprendizado e de evolução na aplicação de práticas de segurança em CI/CD.
+    
+    ![Relatório OWASP ZAP](../assets/zap_report.png)
+
+    [Link para o relatório de vulnerabilidades gerado pelo workflow](../assets/zap_report.html)
 
     #### 2.3 **Deploy Simulado**
-    - [ ] **Simular o deploy realizando um push da imagem Docker para o Docker Hub**
+    - [x] **Simular o deploy realizando um push da imagem Docker para o Docker Hub**
       - Comentários:
-      - 
+      - Este foi o ponto que bloqueou a entrega. Durante o processo de deploy, ocorreu uma mislabeling (atribuição incorreta de nome) do contêiner, o que impediu a execução correta do push para o Docker Hub. Esse erro de nomeação foi identificado e corrigido, permitindo que a tarefa fosse concluída posteriormente. 
 
 ### 3. **Requisitos de Segurança**
 - [ ] **Configurar as permissões do pipeline para que apenas branches protegidas possam acionar o deploy**
   - Comentários:
-  - 
-- [ ] **Configurar secrets no GitHub para armazenar credenciais de acesso ao Docker Hub**
-  - Comentários:
-  - 
+  - A configuração de permissões foi feita para que o pipeline só seja executado na `main` branch.
+- [x] **Configurar secrets no GitHub para armazenar credenciais de acesso ao Docker Hub**
 
 ### 4. **Documentação**
-- [ ] **Adicionar um arquivo `README.md` explicando:**
+- [x] **Adicionar um arquivo `README.md` explicando:**
   - [ ] **Como configurar o pipeline**
-  - [ ] **Como executar a aplicação localmente**
-  - [ ] **Quaisquer decisões técnicas tomadas durante o desafio**
+  - [x] **Como executar a aplicação localmente**
+  - [x] **Quaisquer decisões técnicas tomadas durante o desafio**
   - Comentários:
   - 
 
