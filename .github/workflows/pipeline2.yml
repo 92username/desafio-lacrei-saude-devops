@@ -84,7 +84,7 @@ jobs:
           path: reports/zap_report.html
 
   docker-build-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: [build, security-scan]
     if: github.ref == 'refs/heads/main'  # Only deploy on the main branch or protected branches
 
