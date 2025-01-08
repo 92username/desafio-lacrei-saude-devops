@@ -24,7 +24,7 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
       - O pipeline instala as dependências com npm install e executa testes unitários utilizando o Jest através do comando npm test. O Jest é configurado para rodar automaticamente
 
     #### 2.2 **Análise de Segurança**
-    - [ ] **Integrar a ferramenta OWASP ZAP para escanear vulnerabilidades na aplicação**
+    - [x] **Integrar a ferramenta OWASP ZAP para escanear vulnerabilidades na aplicação**
     - [ ] **Gerar um relatório de vulnerabilidades como artefato do pipeline**
       - Comentários:
       - A integração da ferramenta OWASP ZAP para escanear vulnerabilidades foi a parte mais desafiadora deste desafio, pois era uma área nova para mim. A falta de prática e o conhecimento limitado sobre a ferramenta dificultaram o progresso e a finalização dessa tarefa. Embora tenha enfrentado desafios, foi uma oportunidade importante de aprendizado e de evolução na aplicação de práticas de segurança em CI/CD.
