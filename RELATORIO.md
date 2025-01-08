@@ -66,7 +66,11 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
   eficiente das pendências e ter uma visão mais detalhada do progresso, além de 
   facilitar a retomada do trabalho após interrupções, garantindo que nenhum 
   ponto fosse esquecido ou negligenciado.
-  
+
+  - Verifique o histórico de issues na versão 1 e 2 aqui:
+    - **Versão 1:** https://github.com/92username/desafio-devsecops-lacrei-saude/issues?q=is%3Aissue+is%3Aclosed
+    - **Versão 2:** https://github.com/92username/desafio-lacrei-saude-devops/issues?q=is%3Aissue+is%3Aall+
+
   - Durante o desenvolvimento do desafio, aprendi a importância de adotar a 
   prática de conventional commits, o que foi um dos maiores aprendizados. 
   Durante o processo, enfrentei uma situação em que o pipeline CI estava 
