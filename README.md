@@ -37,20 +37,30 @@ Este repositório contém o desafio de DevSecOps para a Lacrei Saúde. O objetiv
    cd desafio-lacrei-saude-devops
    ```
 
-3. Construa a imagem Docker:
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+   Execute diretamente:
+   ```sh
+   npm start
+   ```
+
+4. Construa a imagem Docker:
    ```sh
    docker build -t lacrei-saude-devops .
    ```
 
-4. Execute o container Docker:
+5. Execute o container Docker:
    ```sh
-   docker run -d -p 8080:80 lacrei-saude-devops
+   docker run -d -p 3000:3000 lacrei-saude-devops
    ```
 
-5. Acesse a aplicação em seu navegador:
+6. Acesse a aplicação em seu navegador:
    ```
-   http://localhost:8080
+   http://localhost:3000
    ```
+![Imagem do navedor](./assets/image.png)
 
 ## Funcionamento do Pipeline CI/CD
 
