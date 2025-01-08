@@ -5,10 +5,10 @@ on:
   push:
     branches:
       - main
-      
-    #paths-ignore:              # Uncomment this line to track changes in workflow files
-    #  - '.github/workflows/**' # Uncomment this line to track changes in workflow files
-
+    
+    paths-ignore:
+      - '**/*.md'
+   #  - '.github/workflows/**' # Uncomment this line to track changes in workflow files
 jobs:
   build:
     runs-on: ubuntu-24.04
