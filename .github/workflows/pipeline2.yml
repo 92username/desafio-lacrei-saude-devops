@@ -1,6 +1,7 @@
 name: CI/CD Build Push and Deploy
 
 on:
+  # workflow_dispatch: # uncomment to manual trigger
   push:
     branches:
       - main
