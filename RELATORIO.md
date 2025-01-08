@@ -68,6 +68,10 @@ Como resultado, criei um repositório dedicado para aprender e praticar o uso de
   - Comentários:
   - https://github.com/92username/desafio-lacrei-saude-devops
 
+### 6. **Melhoria Sugerida no processo**
+- [ ] **Uso da action ZAP Full Scan, disponível no marketplace do github**
+  - https://github.com/marketplace/actions/zap-full-scan
+  
 ---
 
 ## **Critérios de Avaliação**
