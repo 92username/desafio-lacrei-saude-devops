@@ -33,6 +33,13 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
 
     [Link para o relatório de vulnerabilidades gerado pelo workflow](./assets/zap_report.html)
 
+    #### 2.2.1 **Artefatos do Pipeline**
+    - [x] **Acessar os artefatos gerados pelo pipeline**
+      - Comentários:
+      - Os artefatos gerados pelo pipeline, incluindo relatórios de vulnerabilidades e logs de execução, podem ser acessados diretamente através do link abaixo:
+
+    [Link direto para os artefatos do GitHub Actions](https://github.com/92username/desafio-lacrei-saude-devops/actions/runs/12663360286/artifacts/2399287825)
+
     #### 2.3 **Deploy Simulado**
     - [x] **Simular o deploy realizando um push da imagem Docker para o Docker Hub**
       - Comentários:
