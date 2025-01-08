@@ -29,9 +29,9 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
       - Comentários:
       - A integração da ferramenta OWASP ZAP para escanear vulnerabilidades foi a parte mais difícil deste desafio, pois era uma área nova para mim. A falta de prática e o conhecimento limitado sobre a ferramenta dificultaram o progresso e a finalização dessa tarefa. Embora tenha enfrentado desafios, foi uma oportunidade importante de aprendizado e de evolução na aplicação de práticas de segurança em CI/CD.
     
-    ![Relatório OWASP ZAP](../assets/zap_report.png)
+    ![Relatório OWASP ZAP](./assets/zap_report.png)
 
-    [Link para o relatório de vulnerabilidades gerado pelo workflow](../assets/zap_report.html)
+    [Link para o relatório de vulnerabilidades gerado pelo workflow](./assets/zap_report.html)
 
     #### 2.3 **Deploy Simulado**
     - [x] **Simular o deploy realizando um push da imagem Docker para o Docker Hub**
