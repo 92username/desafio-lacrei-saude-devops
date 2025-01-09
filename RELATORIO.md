@@ -49,6 +49,10 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
 - [x] **Configurar as permissões do pipeline para que apenas branches protegidas possam acionar o deploy**
   - Comentários:
   - A configuração de permissões foi feita para que o pipeline só seja executado na `main` branch.
+      ![main branch protection](./assets/main_branch_protection.png)
+      ![Rulesets push protection](./assets/rulesets_push_protection.png)
+
+
 - [x] **Configurar secrets no GitHub para armazenar credenciais de acesso ao Docker Hub**
 
 ### 4. **Documentação**
