@@ -43,7 +43,7 @@ Avaliar os conhecimentos e habilidades da pessoa voluntária em implementar pipe
     #### 2.3 **Deploy Simulado**
     - [x] **Simular o deploy realizando um push da imagem Docker para o Docker Hub**
       - Comentários:
-      - Este foi o ponto que bloqueou a entrega. Durante o processo de deploy, ocorreu uma mislabeling (atribuição incorreta de nome) do contêiner, o que impediu a execução correta do push para o Docker Hub. Esse erro de nomeação foi identificado e corrigido, permitindo que a tarefa fosse concluída posteriormente. 
+      - Durante o processo de deploy, ocorreu uma mislabeling (atribuição incorreta de nome) do contêiner, o que impediu a execução correta do push para o Docker Hub. Esse erro de nomeação foi identificado e corrigido, permitindo a conclusão do desafio com sucesso. 
 
 ### 3. **Requisitos de Segurança**
 - [x] **Configurar as permissões do pipeline para que apenas branches protegidas possam acionar o deploy**
