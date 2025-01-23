@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1069ae0b42164f8ea2a1b78d33aac3e4)](https://app.codacy.com/gh/92username/desafio-lacrei-saude-devops?utm_source=github.com&utm_medium=referral&utm_content=92username/desafio-lacrei-saude-devops&utm_campaign=Badge_Grade)
 [![CI/CD Build Push and Deploy](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline2.yml/badge.svg?branch=main)](https://github.com/92username/desafio-lacrei-saude-devops/actions/workflows/pipeline2.yml)
 # Desafio Lacrei Saúde - DevSecOps
 
