@@ -99,7 +99,8 @@ Como resultado, criei um repositório dedicado para aprender e praticar o uso de
 ### 6. **Melhoria Sugerida no processo**
   - Uso da action ZAP Full Scan, disponível no marketplace do github:
   - https://github.com/marketplace/actions/zap-full-scan
-
+  - Utilizar ZAP Docker Images in GitHub Container Registry
+  - https://www.zaproxy.org/blog/2023-06-13-ghcr-docker-images/
 ---
 
 ## **Critérios de Avaliação**
